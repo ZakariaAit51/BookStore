@@ -1,3 +1,5 @@
+import {Button} from 'flowbite';
+
 export default function Welcome(){
-    return <h1 className="text-red-600">hello world</h1>
+    return <Button className="text-red-600">hello world</Button>
 }
